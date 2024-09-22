@@ -3,7 +3,6 @@ import turtle as trtl
 import random as rand
 import time
 
-
 #Functions
 
 def enemy_setup():
@@ -199,7 +198,6 @@ scribe.pu()
 scribe.color("white")
 scribe.goto(0,-400)
 
-
 wn.tracer(1) #Ends the tracer creating a faster and more seamless startup
 
 
@@ -218,7 +216,7 @@ while True:
     trtl.onkeypress(down_right, "c")
     trtl.onkeypress(down_left, "z")
     
-    wn.update()
+    wn.update()#Updates the screen with designated outputs from keys
 
     enemy_move() #Enemy moves while the program listens for key inputs
     
@@ -237,7 +235,6 @@ while True:
         continue
 
     break
-
 
 #Events after the user loses or wins
 end = time.time() #Sets the end time

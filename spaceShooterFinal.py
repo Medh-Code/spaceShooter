@@ -213,7 +213,7 @@ while True:
     trtl.onkeypress(left, "a")
     trtl.onkeypress(up_right, "e")
     trtl.onkeypress(up_left, "q")
-    trtl.onkeypress(down_right, "c")
+    trtl.onkeypress(down_right, "x")
     trtl.onkeypress(down_left, "z")
     
     wn.update()#Updates the screen with designated outputs from keys

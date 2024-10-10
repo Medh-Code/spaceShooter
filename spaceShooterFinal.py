@@ -196,7 +196,7 @@ scribe = trtl.Turtle()
 scribe.ht()
 scribe.pu()
 scribe.color("white")
-scribe.goto(0,-400)
+scribe.goto(0,-300)
 
 wn.tracer(1) #Ends the tracer creating a faster and more seamless startup
 
